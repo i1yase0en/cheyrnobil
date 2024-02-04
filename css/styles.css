@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #2C2C2C;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0;
+}
+.nav__list{
+    display: flex;
+    list-style: none;
+}
+.nav__item{
+    margin-right: 63px;
+}
+.nav__link{
+    color: #E4E4E4;
+    font-family: 'Pangolin', cursive;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Стили для hero-block */
+
+.hero-block{
+    background: #2C2C2C;
+}
+.container_hero-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 0 91px 0;
+}
+.hero-block__title{
+    color: #d46a23;
+    font-family: 'Pangolin', cursive;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.hero-block__content{
+    width: 476px;
+}
+.hero-block__link{
+    border-radius: 6px;
+    background-color: #cc960a;
+    color: black;
+font-size: 18px;
+font-family: Nico Moji;
+font-weight: 400;
+word-wrap: break-word;
+padding: 15px 20px;
+}
+.hero-block__text{
+    color: #E4E4E4;
+font-size: 20px;
+font-family: Roboto;
+font-weight: 400;
+word-wrap: break-word
+}
+.hero-block__text >span{
+    color: #FF0000;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.about{
+    background-color: #0057FF;
+}
+.container_about{
+    padding: 22px 0 665px 0;
+}
+.about__title{
+color: #000000;
+font-size: 48px;
+font-family: Nico Moji;
+font-weight: 400;
+word-wrap: break-word
+}
+.about__content{
+    display: flex;
+    justify-content: space-between;
+}
+.skills{
+    width: 356px;
+}
+.skills__title{
+    color: rgb(204, 141, 23);
+font-size: 30px;
+font-family: Nico Moji;
+font-weight: 400;
+word-wrap: break-word
+}
+.skills__list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.skills__item{
+    margin-bottom: 30px;
+}
+.skills__name{
+    color: black;
+font-size: 30px;
+font-family: Nico Moji;
+font-weight: 400;
+word-wrap: break-word
+}
+.skills__full{
+    width: 100%;
+    height: 9px;
+    background-color: #dab78b;
+}
+.skills__done{
+    height: 100%;
+    width: 78%;
+    background-color: #000000;
+}
+.about__img{
+    width: 45%;
+}
+
+    .hero-block__img{
+        margin-right: 40px;
+    }
+    .skills__done2{
+        height: 100%;
+    width: 55%;
+    background-color: #000000;
+    }
+    .skills__done3{
+        height: 100%;
+    width: 92%;
+    background-color: #000000;
+    }
+    .skills__name2{
+        color: #d46a23;
+        font-size: 30px;
+font-family: Nico Moji;
+font-weight: 400;
+word-wrap: break-word
+    }
+    .skills__name3{
+        color: #FF0000;
+        font-size: 30px;
+font-family: Nico Moji;
+font-weight: 400;
+word-wrap: break-word
+    }
+    .video{
+        background: #0057FF;
+    }
+    .video__video{
+        width: 100%;
+        height: 600px;
+    }
+    .gallery__img{
+        width: 100%;
+        height: 100%;
+    }
+    .gallery__list{
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+    }
+.gallery{
+    background-color: #873608;
+}
+.gallery__item{
+    width: 50%;
+    height: 392px;
+}
+.footer__list{
+    display: flex;
+    list-style: none;
+}
+    .footer{
+        background: #74AF27;
+    }
+    .container__footer{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 50px;
+    }
+    .footer__title{
+        font-size: 30px;
+font-family: Nico Moji;
+font-weight: 400;
+word-wrap: break-word
+    }
+    .footer__text{
+        color: white;
+font-size: 16px;
+font-family: Nico Moji;
+font-weight: 400;
+line-height: 26.25px;
+word-wrap: break-word
+    }
+.footer__item{
+    margin-right: 15px;
+}
+   
